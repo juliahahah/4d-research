@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls \"C:/Users/julia/.claude/projects/c--Users-julia-Desktop-4D/memory/\" 2>/dev/null && echo \"exists\" || echo \"no-memdir\"; cat \"C:/Users/julia/.claude/projects/c--Users-julia-Desktop-4D/memory/MEMORY.md\" 2>/dev/null | head)",
+      "Read(//c/Users/julia/.claude/projects/c--Users-julia-Desktop-4D/**)",
+      "Bash(python build_notes.py)",
+      "Bash(python -c ' *)",
+      "WebSearch",
+      "WebFetch(domain:arxiv.org)",
+      "PowerShell(python -c \"import pptx; print\\('python-pptx', pptx.__version__\\)\" 2>&1)",
+      "PowerShell(python --version 2>&1)",
+      "PowerShell(python \"C:\\\\Users\\\\julia\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-julia-Desktop-4D\\\\f1efbbb4-2b48-4c6c-acc4-a7cd4b0f7116\\\\scratchpad\\\\make_intro.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\julia\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-julia-Desktop-4D\\\\f1efbbb4-2b48-4c6c-acc4-a7cd4b0f7116\\\\scratchpad\\\\make_arch.py\")",
+      "PowerShell(python \"C:\\\\Users\\\\julia\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-julia-Desktop-4D\\\\f1efbbb4-2b48-4c6c-acc4-a7cd4b0f7116\\\\scratchpad\\\\make_7pages.py\")",
+      "Bash(curl -sL -o MoCA_test.png \"https://arxiv.org/html/2605.14054v2/x2.png\")",
+      "Bash(curl -sL \"https://arxiv.org/html/2605.14054\")",
+      "PowerShell(python \"C:\\\\Users\\\\julia\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-julia-Desktop-4D\\\\f1efbbb4-2b48-4c6c-acc4-a7cd4b0f7116\\\\scratchpad\\\\make_figs_deck.py\")",
+      "Bash(awk '{print $5\"\\\\t\"$9}')",
+      "Bash(mkdir -p \"/c/Users/julia/Desktop/4D/.claude/skills/research-idea-review\")",
+      "Bash(cp \"/c/Users/julia/Desktop/4D/paperskill.md\" \"/c/Users/julia/Desktop/4D/.claude/skills/research-idea-review/SKILL.md\")",
+      "Bash(cd \"/c/Users/julia/Desktop/4D\" && cp \"TDL_7頁回答.pptx\" \"slides/TDL_7頁回答.pptx\" && echo \"copied ok\" && ls slides/ notes/ papers/ | head -40)"
+    ]
+  }
+}
