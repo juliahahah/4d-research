@@ -1,3 +1,7 @@
 ~$*
 /TDL_7頁回答.pptx
 .claude/scheduled_tasks.lock
+
+# 大檔不進 git(已於 2026-07-14 從歷史移除並 force push);本地檔仍保留
+papers/
+paper_figures/
